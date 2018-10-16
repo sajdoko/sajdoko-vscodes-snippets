@@ -1,0 +1,26 @@
+{
+  "name": "sajdoko-code-snippet",
+  "displayName": "sajdoko-code-snippet",
+  "description": "My very first VS Code Snippet extension",
+  "version": "1.0.0",
+  "publisher": "sajdoko",
+  "icon": "icon.png",
+  "engines": {
+    "vscode": "^1.28.0"
+  },
+  "categories": [
+    "Snippets"
+  ],
+  "contributes": {
+    "snippets": [
+      {
+        "language": "html",
+        "path": "./snippets/snippets.json"
+      },
+      {
+        "language": "php",
+        "path": "./snippets/snippets.json"
+      }
+    ]
+  }
+}
